@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SecondController.h"
 @interface ViewController ()
 
 @end
@@ -20,5 +20,10 @@
     // Do any additional setup after loading the view.
 }
 
-
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if([segue.identifier isEqual:@"firstSegue"]){
+        SecondController *sg = segue.destinationViewController;
+        sg.text =@"Test text";
+    }
+}
 @end

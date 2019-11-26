@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SecondController : ViewController
-
+@property NSString *text;
 @end
 
 NS_ASSUME_NONNULL_END

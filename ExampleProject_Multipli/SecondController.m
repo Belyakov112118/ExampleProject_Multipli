@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"Hi!");
+    NSLog(@"%@", _text);
 }
 - (IBAction)backTap:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
