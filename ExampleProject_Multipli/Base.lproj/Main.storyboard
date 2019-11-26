@@ -39,21 +39,29 @@
             </objects>
             <point key="canvasLocation" x="139" y="139"/>
         </scene>
-        <!--View Controller-->
+        <!--Second Controller-->
         <scene sceneID="c49-7z-QVi">
             <objects>
-                <viewController id="vwB-Sr-bGk" sceneMemberID="viewController">
+                <viewController id="vwB-Sr-bGk" customClass="SecondController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fMD-uR-uMh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SecondController" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ri4-ru-Ibw">
-                                <rect key="frame" x="140" y="411" width="134" height="21"/>
+                                <rect key="frame" x="140" y="203" width="134" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6s5-nv-Ymg">
+                                <rect key="frame" x="184" y="406" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="backTap:" destination="vwB-Sr-bGk" eventType="touchUpInside" id="uVO-TI-KjV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="bK0-IP-upg"/>

@@ -14,6 +14,7 @@
 		3F04A406238D152D002A9E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F04A405238D152D002A9E5E /* Assets.xcassets */; };
 		3F04A409238D152D002A9E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F04A407238D152D002A9E5E /* LaunchScreen.storyboard */; };
 		3F04A40C238D152D002A9E5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F04A40B238D152D002A9E5E /* main.m */; };
+		3F04A414238D28D2002A9E5E /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F04A413238D28D2002A9E5E /* SecondController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		3F04A408238D152D002A9E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F04A40A238D152D002A9E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F04A40B238D152D002A9E5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F04A412238D28D2002A9E5E /* SecondController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondController.h; sourceTree = "<group>"; };
+		3F04A413238D28D2002A9E5E /* SecondController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				3F04A3FF238D152B002A9E5E /* ViewController.h */,
 				3F04A400238D152B002A9E5E /* ViewController.m */,
 				3F04A402238D152B002A9E5E /* Main.storyboard */,
+				3F04A412238D28D2002A9E5E /* SecondController.h */,
+				3F04A413238D28D2002A9E5E /* SecondController.m */,
 				3F04A405238D152D002A9E5E /* Assets.xcassets */,
 				3F04A407238D152D002A9E5E /* LaunchScreen.storyboard */,
 				3F04A40A238D152D002A9E5E /* Info.plist */,
@@ -148,6 +153,7 @@
 			files = (
 				3F04A401238D152B002A9E5E /* ViewController.m in Sources */,
 				3F04A3FB238D152B002A9E5E /* AppDelegate.m in Sources */,
+				3F04A414238D28D2002A9E5E /* SecondController.m in Sources */,
 				3F04A40C238D152D002A9E5E /* main.m in Sources */,
 				3F04A3FE238D152B002A9E5E /* SceneDelegate.m in Sources */,
 			);
